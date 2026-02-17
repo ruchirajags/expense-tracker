@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Expense Calendar</h1>
+
+    <div class="controls">
+        <button id="prev">◀</button>
+        <span id="month"></span>
+        <button id="next">▶</button>
+    </div>
+
+    <div id="calendar" class="calendar"></div>
+
+    <div id="expenseBox" class="expenseBox">
+        <h3 id="selectedDate"></h3>
+
+        <input type="number" id="amount" placeholder="Amount">
+        <input type="text" id="reason" placeholder="Spent on...">
+
+        <button id="addBtn">Add</button>
+
+        <ul id="list"></ul>
+        <p id="total"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #eef2ff;
+}
+
+h1 {
+    color: #333;
+}
+
+.controls {
+    margin: 15px;
+}
+
+.controls button {
+    padding: 6px 12px;
+    border: none;
+    background: #6c63ff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.calendar {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px;
+}
+
+.day {
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+}
+
+.day:hover {
+    background: #6c63ff;
+    color: white;
+}
+
+.expenseBox {
+    display: none;
+    margin: 20px auto;
+    width: 320px;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+    width: 90%;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    background: #6c63ff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+li {
+    background: #f1f1ff;
+    margin: 4px 0;
+    padding: 5px;
+    border-radius: 4px;
+}
